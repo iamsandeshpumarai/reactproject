@@ -1,0 +1,17 @@
+.order{
+ position: relative;
+}
+.order::placeholder{
+    position: absolute;
+    transition: top 1s ease-in;
+    
+    
+}
+.order:focus{
+    background-color: white;
+}
+.order:focus::placeholder {
+    font-size: 10px;
+    position: absolute;
+top:0;
+}

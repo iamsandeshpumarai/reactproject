@@ -1,0 +1,24 @@
+.menu-list li {
+    position: relative;
+  }
+  
+  .menu-list li::before {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Start 10px below the text */
+    left: 0;
+    width: 100%; /* Full width of the menu item */
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+    opacity: 0; /* Initially invisible */
+    transition: bottom 0.3s ease, opacity 0.3s ease; /* Smooth transition for position and opacity */
+  }
+  
+  .menu-list li:hover::before {
+    bottom: 0; /* Move to the bottom of the text */
+    opacity: 1; /* Fade in */
+  }
+  .underline {
+    bottom: 0; /* Move to the bottom of the text */
+    opacity: 1;
+  }

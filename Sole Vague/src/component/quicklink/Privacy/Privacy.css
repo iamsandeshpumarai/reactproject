@@ -1,0 +1,36 @@
+.privacy-policy-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    color: #666;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.privacy-policy-container h1,
+.privacy-policy-container h2 {
+    color: #333;
+}
+
+/* Ensure h2 is always aligned to the left */
+.privacy-policy-container h2 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Paragraph styling */
+.privacy-policy-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* List styling */
+.privacy-policy-container ul {
+    padding-left: 20px;
+}
+
+.privacy-policy-container ul li {
+    margin-bottom: 10px;
+}
